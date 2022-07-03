@@ -79,3 +79,17 @@ aside {
   border-top: 5px solid #08a99c;
   border-bottom: 5px solid #08a99c;
 }
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(odd) {
+  color: #da1818;
+}
+
+article p:last-child {
+  color: #1545b3;
+}
