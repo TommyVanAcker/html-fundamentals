@@ -29,7 +29,9 @@
       <header>
         <h2>The Basic Language of the Web: HTML</h2>
         <img src="img/laura-jones.jpg" alt="picture of Laura" width="75" />
-        <p>Posted by <strong> Laura J</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong> Laura J</strong> on Monday, June 21st 2027
+        </p>
         <img src="img/post-img.jpg" alt="Screen of HTML" width="500" />
       </header>
       <p>
@@ -87,15 +89,15 @@
     </article>
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related-posts">
         <li>
           <img src="img/related-1.jpg" alt="html code on screen" width="50" />
         </li>
         <a href="#">How to learn Web Development</a>
-        <p>By Jonas Schmedtmann</p>
+        <p class="related-author">By Jonas Schmedtmann</p>
         <li><img src="img/related-2.jpg" alt="lightning" width="50" /></li>
         <a href="#">The Unknown power of CSS</a>
-        <p>by Jim Dillon</p>
+        <p class="related-author">by Jim Dillon</p>
         <li>
           <img
             src="img/related-3.jpg"
@@ -104,9 +106,11 @@
           />
         </li>
         <a href="#">Why Javascript is Awesome</a>
-        <p>By Matilda</p>
+        <p class="related-author">By Matilda</p>
       </ul>
     </aside>
-    <footer><p>Copyright &copy; written by The Code Magazine 2027.</p></footer>
+    <footer>
+      <p id="copyright">Copyright &copy; written by The Code Magazine 2027.</p>
+    </footer>
   </body>
 </html>
